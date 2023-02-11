@@ -68,6 +68,12 @@ nav .container {
   color:rgb(100, 21, 255);
 }
 
+.nav__logo-img:hover + .nav__logo-name,
+.nav__logo-name:hover {
+  color: rgb(100, 21, 255);
+  transition: all 300ms ease;
+}
+
 .link__hover-effect {
   position: relative;
 }
